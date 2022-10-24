@@ -6,13 +6,7 @@ function Nav() {
         <img src="" alt="" className="logo" />
         <ul>
             <li><a href="../economy/Economy.jsx">Econoy</a></li>
-            {/* <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li> */}
+
         </ul>
     </nav>
   )
