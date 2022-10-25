@@ -4,21 +4,21 @@ import React from "react";
 import logo from "./logo192.png";
 
 // let text = 'hello'
-function SideBar() {
+function SideBar(props) {
   return (
-    <div className="sidebar">
+    <div className="sidebar " >
       <img src={logo} alt="" />
       {/* <Lecture text={text}/> */}
       {/* <Tile name='التسويق'/>
     <Tile name='الاقتصاد'/>
     <Tile name='مبادئ المحاسبة'/> */}
-      <p>
+      {/* <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias fuga
         corporis id iure sapiente ullam ut eum fugiat facere, recusandae nihil
         quis voluptatum, numquam, animi provident illo perspiciatis. Deleniti,
         temporibus!
-      </p>
-
+      </p> */}
+{props.content}
     </div>
   );
 }

@@ -1,8 +1,12 @@
 import React from 'react'
+import AccountingSubject from '../muliUsePages/AccountingSubject'
+import '../../styles/subject.css'
 
-function PrinciplesOfManagementalAccounting() {
+function PrinciplesOfManagementalAccounting(props) {
   return (
-    <div>PrinciplesOfFinancialAccounting</div>
+    <div className='accounting'>
+    <AccountingSubject  name='مبادئ المحاسبة' word='مادة في كلية تجارة' list={props.list} />
+    </div>
   )
 }
 

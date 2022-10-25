@@ -1,11 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 import Link from "./Link";
 import logo from "./logo192.png";
+
 function Nav() {
   return (
     <nav>
-      <img src={logo} alt="" className="logo" />
+      <NavLink to={'/'}><img src={logo} alt="" className="logo" /></NavLink>
       {/* <input type="text" placeholder="Search" /> */}
       
       <div className="menu">

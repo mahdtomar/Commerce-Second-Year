@@ -11,12 +11,13 @@ function ContentPage() {
         College Assistant
       </div>
       <div className="grid-3">
-        <Squar title="مبادئ المحاسبة" letter="م أ" />
-        <Squar title="ادراة التسويق" letter="أ ت" />
-        <Squar title="علم ألاقتصاد" letter="ع أ" />
-        <Squar title="مبادئ المحاسبة" letter="م أ" />
-        <Squar title="ادراة التسويق" letter="أ ت" />
-        <Squar title="علم ألاقتصاد" letter="ع أ" />
+      <Squar link="مبادئ المحاسبة" title="مبادئ المحاسبة" letter="م أ" />
+        <Squar link="التسويق" title="ادراة التسويق" letter="أ ت" />
+        <Squar link="الاقتصاد" title="علم ألاقتصاد" letter="ع أ" />
+        
+        <Squar link="مبادئ المحاسبة" title="مبادئ المحاسبة" letter="م أ" />
+        <Squar link="التسويق" title="ادراة التسويق" letter="أ ت" />
+        <Squar link="الاقتصاد" title="علم ألاقتصاد" letter="ع أ" />
       </div>
     </div>
   );
