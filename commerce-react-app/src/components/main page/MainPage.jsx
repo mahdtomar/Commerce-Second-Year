@@ -1,10 +1,17 @@
 import React from "react";
-import Header from "./Header";
+import ContentPage from "./ContentPage";
+import Nav from "./Nav";
+import SideBar from "./SideBar";
+import './sass/mainPage.css'
 function MainPage() {
   return (
-    <div>
-      <Header></Header>
-    </div>
+    <>
+      <Nav></Nav>
+      <div className="screen">
+        <SideBar />
+        <ContentPage />
+      </div>
+    </>
   );
 }
 
